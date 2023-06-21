@@ -4,12 +4,8 @@ const nextConfig = {
     return {
       fallback: [
         {
-          source: '/:path*',
-          destination: `https://github.com/:path*`,
-        },
-        {
-          source: '/authorize?:slug*',
-          destination: `https://login.docker.com/authorize?:slug*`,
+          source: '/:slug*',
+          destination: `https://login.docker.com/:slug*`,
         },
       ],
     };
