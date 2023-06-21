@@ -5,7 +5,7 @@ const nextConfig = {
       fallback: [
         {
           source: '/:slug*',
-          destination: `https://login.docker.com/:slug*`,
+          destination: `https://hub.docker.com/:slug*`,
         },
       ],
     };
