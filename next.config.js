@@ -4,8 +4,8 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/support/:slug*",
-        destination: "https://hub.docker.com/support/:slug*",
+        source: "/github/:slug*",
+        destination: "https://github.com/:slug*",
       },
       {
         source: "/proxy/:slug*",
