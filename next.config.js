@@ -6,15 +6,7 @@ const nextConfig = {
       {
         source: "/:slug*",
         destination: "https://hub.docker.com/:slug*",
-      },
-      {
-        source: "/proxy/:slug*",
-        destination: "https://api.openai.com/:slug*",
-      },
-      {
-        source: "/proxy-sse/:slug*",
-        destination: "/api/proxy-sse?path=:slug*",
-      },
+      }
     ];
   },
 };
