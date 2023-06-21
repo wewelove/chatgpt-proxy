@@ -11,6 +11,10 @@ const nextConfig = {
         source: "/proxy-sse/:slug*",
         destination: "/api/proxy-sse?path=:slug*",
       },
+      {
+        source: "/docker/:slug*",
+        destination: "https://hub.docker.com/:slug*",
+      },
     ];
   },
 };
