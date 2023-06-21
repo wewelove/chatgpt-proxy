@@ -4,8 +4,8 @@ const nextConfig = {
     return {
       fallback: [
         {
-          source: '/:path*/',
-          destination: `https://github.com/:path*/`,
+          source: '/:path*',
+          destination: `https://github.com/:path*`,
         },
       ],
     };
